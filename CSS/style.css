@@ -39,7 +39,7 @@ header nav ul li{
 }
 
 /* Container1 (header image box) */
-.Container1 section{
+.Container1 {
   height: 50vh;                      /* Set the height to take up 50% of the viewport height */
   border: 1px solid grey;
   display: flex;
@@ -98,7 +98,7 @@ footer {
   background-image: url(../Images/bolt-stock-image.jpg);
   background-size:     cover;
   background-repeat:   no-repeat;
-  background-position: center center;
+  background-position: center;
 }
 #about{
   background-color:    lavender;
