@@ -19,7 +19,6 @@ padding-left: 10%;
 header a{
 text-decoration: none;
 color: black;
-
 }
 
 section{
@@ -59,6 +58,20 @@ align-items: center;
 .Container p, ul{
 margin-top: 2%;
 font-size: 1.5rem;
+}
+
+.home-link {
+  position: absolute; /* Place it in the top-left corner */
+  top: 10px;          /* Adjust the vertical position */
+  left: 10px;         /* Adjust the horizontal position */
+  text-decoration: none; /* Remove the underline */
+  font-size: 1.2em;    /* Make the text slightly larger */
+  font-weight: bold;   /* Bold the text */
+  color: #000;         /* Set the text color (adjust as needed) */
+}
+
+.home-link:hover {
+  color: #007BFF; /* Change the color on hover (adjust as needed) */
 }
 
 footer {
