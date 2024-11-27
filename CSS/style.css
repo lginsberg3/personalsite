@@ -32,17 +32,14 @@ header a{
   text-decoration: underline; /* Add an underline on hover */
 }
 
-
-/* Section */
-section{
+/* Container */
+.Container section{
   height: 100vh;
   border: 1px solid grey;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-/* Container */
 .Container img{
   height: 300px;
   border-radius: 50%;
@@ -55,6 +52,13 @@ section{
 }
 
 /* Container1 (header image box) */
+.Container1 section{
+  height: 50vh;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .Container1 h2{
   margin-top: 2%;
   font-size: 3em;
@@ -65,13 +69,6 @@ section{
   font-size: 2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: white;
-}
-.Container1 section{
-  height: 50vh;
-  border: 1px solid grey;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Borders */
