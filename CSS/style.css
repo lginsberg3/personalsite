@@ -35,12 +35,18 @@ height: 300px;
 border-radius: 50%;
 }
 
-.Container h2{
+.Container1 h2{
 margin-top: 2%;
 font-size: 3em;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 color: white;
 }
+.Container1 h1{
+font-size: 2em;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: white;
+}
+
 .Container p, ul{
 margin-top: 2%;
 font-size: 1.5rem;
