@@ -33,22 +33,25 @@ header a:hover {
 
 /* Container1 (header image box) */
 .Container1 section{
-  height: 50vh;
+  height: 50vh;                      /* Set the height to take up 50% of the viewport height */
   border: 1px solid grey;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;            /* Align content in a column */
+  justify-content: center;           /* Center content vertically */
+  align-items: center;               /* Center content horizontally */
+  color: white;                      /* Set the text color to white */
+  text-align: center;                /* Center align the text */
 }
 .Container1 h2{
-  margin-top: 2%;
+  margin: 0 0 20px 0;                /* Add space below the h2 */
   font-size: 3em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
+  color: inherit;                    /* Inherit color from the parent container */
 }
 .Container1 h1{
   font-size: 2em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
+  color: inherit;                    /* Inherit color from the parent container */
 }
 
 /* Container */
