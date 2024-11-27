@@ -116,6 +116,11 @@ header nav ul li{
   justify-content: center;
   align-items: center;
 }
+.Container h1{
+  font-size: 3em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: inherit;                    /* Inherit color from the parent container */
+}
 .Container img{
   height: 300px;
   display: block;
