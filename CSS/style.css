@@ -3,22 +3,9 @@ padding: 0;
 margin: 0;
 }
 
-/* General styling for all navigation links */
-nav ul li a{
-  font-size: 1em;                   /* Adjust this as needed to ensure uniform size */
-  text-decoration: none;
-  color: inherit;                   /* Use the default text color */
-}
-
 /* Header */
-header{
-  height: 45px;
-  display: flex;                    /* Arrange items in a row */
-  align-items: center;              /* Vertically center the items */
-  justify-content: space-between;   /* Space between the home-link and navigation menu */
-  padding: 10px 20px;               /* Add some spacing inside the header */
-}
-header a{
+header a, .home-link {
+  font-size: 1em;                   /* Ensures the font size is the same */
   text-decoration: none;            /* Remove underline */
   font-family: Arial, sans-serif;   /* Set consistent font family */
   color: black;                     /* Set default text color */
@@ -26,15 +13,10 @@ header a{
 header a:hover {
   text-decoration: underline;       /* Add an underline on hover */
 }
-header nav ul{
-  list-style: none;                 /* Remove list bullets */
-  display: flex;                    /* Align list items horizontally */
-}
-header nav ul li{
-  margin: 0 10px;                   /* Add spacing between navigation links */
-}
-.home-link {
-  font-weight: bold;                /* Make the home-link bold */
+
+/* Navigation links */
+header nav ul li a {
+  font-size: 1em;                   /* Consistent font size for nav links */
 }
 
 /* Container1 (header image box) */
