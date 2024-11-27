@@ -11,13 +11,6 @@ header{
   justify-content: space-between;   /* Space between the home-link and navigation menu */
   padding: 10px 20px;               /* Add some spacing inside the header */
 }
-header nav ul{
-  list-style: none;                 /* Remove list bullets */
-  display: flex;                    /* Align list items horizontally */
-}
-header nav ul li{
-  margin: 0 10px;                   /* Add spacing between navigation links */
-}
 header a{
   text-decoration: none;            /* Remove underline */
   font-family: Arial, sans-serif;   /* Set consistent font family */
@@ -26,9 +19,21 @@ header a{
 header a:hover {
   text-decoration: underline;       /* Add an underline on hover */
 }
+header nav ul{
+  list-style: none;                 /* Remove list bullets */
+  display: flex;                    /* Align list items horizontally */
+}
+header nav ul li{
+  margin: 0 10px;                   /* Add spacing between navigation links */
+}
+header nav ul li a{
+  font-size: 1em;                   /* Adjust this as needed to ensure uniform size */
+  text-decoration: none;
+  color: inherit;                   /* Use the default text color */
+  font-weight: normal;              /* Set the font weight to normal */
+}
 .home-link {
   font-weight: bold;                /* Make the home-link bold */
-  margin-right: 20px;               /* Add spacing between home-link and navigation */
 }
 
 /* Container1 (header image box) */
