@@ -3,6 +3,14 @@ padding: 0;
 margin: 0;
 }
 
+/* General styling for all navigation links */
+nav ul li a{
+  font-size: 1em;                   /* Adjust this as needed to ensure uniform size */
+  text-decoration: none;
+  color: inherit;                   /* Use the default text color */
+  font-weight: normal;              /* Set the font weight to normal */
+}
+
 /* Header */
 header{
   height: 45px;
@@ -25,12 +33,6 @@ header nav ul{
 }
 header nav ul li{
   margin: 0 10px;                   /* Add spacing between navigation links */
-}
-header nav ul li a{
-  font-size: 1em;                   /* Adjust this as needed to ensure uniform size */
-  text-decoration: none;
-  color: inherit;                   /* Use the default text color */
-  font-weight: normal;              /* Set the font weight to normal */
 }
 .home-link {
   font-weight: bold;                /* Make the home-link bold */
