@@ -3,9 +3,22 @@ padding: 0;
 margin: 0;
 }
 
+/* General styling for all navigation links */
+nav ul li a{
+  font-size: 1em;                   /* Adjust this as needed to ensure uniform size */
+  text-decoration: none;
+  color: inherit;                   /* Use the default text color */
+}
+
 /* Header */
-header a, .home-link {
-  font-size: 1em;                   /* Ensures the font size is the same */
+header{
+  height: 45px;
+  display: flex;                    /* Arrange items in a row */
+  align-items: center;              /* Vertically center the items */
+  justify-content: space-between;   /* Space between the home-link and navigation menu */
+  padding: 10px 20px;               /* Add some spacing inside the header */
+}
+header a{
   text-decoration: none;            /* Remove underline */
   font-family: Arial, sans-serif;   /* Set consistent font family */
   color: black;                     /* Set default text color */
@@ -13,10 +26,15 @@ header a, .home-link {
 header a:hover {
   text-decoration: underline;       /* Add an underline on hover */
 }
-
-/* Navigation links */
-header nav ul li a {
-  font-size: 1em;                   /* Consistent font size for nav links */
+header nav ul{
+  list-style: none;                 /* Remove list bullets */
+  display: flex;                    /* Align list items horizontally */
+}
+header nav ul li{
+  margin: 0 10px;                   /* Add spacing between navigation links */
+}
+.home-link {
+  font-weight: bold;                /* Make the home-link bold */
 }
 
 /* Container1 (header image box) */
@@ -39,7 +57,7 @@ header nav ul li a {
   left: 0;                          /* Start at the left */
   width: 100%;                      /* Cover full width */
   height: 100%;                     /* Cover full height */
-  background: rgba(0, 0, 0, 0.7);  /* Semi-transparent black (adjust opacity as needed) */
+  background: rgba(0, 0, 0, 0.5);  /* Semi-transparent black (adjust opacity as needed) */
   z-index: 1;                       /* Place it behind the content */
 }
 .Container1 h2,
