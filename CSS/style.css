@@ -99,11 +99,13 @@ header nav ul li{
 }
 #about .about-image {
   flex-shrink: 0; /* Prevent shrinking */
-  max-width: 500px; /* Adjust the max width as needed */
 }
 #about .about-image img {
+  margin-bottom: 20px; /* Adds space between images */
   width: 100%; /* Make the image responsive */
   height: auto; /* Maintain aspect ratio */
+  max-width: 500px; /* Adjust the max width as needed */
+  display: block; /* Ensures the images are block-level elements */
 }
 
 /* Container */
