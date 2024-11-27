@@ -82,7 +82,7 @@ header nav ul li{
 #about .Container {
   display: flex;
   flex-direction: row;                /* Arrange content in a row */
-  margin: 20px auto;                  /* Center the section and add vertical spacing */
+  margin: 0 auto;                  /* Center the section and add vertical spacing */
   justify-content: space-between;     /* Space out the columns */
   align-items: flex-start;            /* Align items to the top */
   gap: 20px;                          /* Add some space between the columns */
@@ -111,7 +111,7 @@ header nav ul li{
 .Container {
   height: 100vh;
   padding: 200px 400px;                 /* Add padding vertically, horizontally */
-  border: 1px solid grey;
+  /* border: 1px solid grey; */
   display: flex;
   justify-content: center;
   align-items: center;
