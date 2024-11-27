@@ -18,7 +18,7 @@ padding-left: 10%;
 
 header a{
 text-decoration: none;
-color: brown;
+color: black;
 
 }
 
@@ -54,9 +54,13 @@ font-size: 1rem;
 
 #intro {
 background-image: url(../Images/bolt-stock-image.jpg);
+background-size:     cover;
+background-repeat:   no-repeat;
+background-position: center center;
 }
 #about{
-background-color: bisque;
+background-color:    bisque;
+}
 }
 #contact{
 background-color: blanchedalmond;
