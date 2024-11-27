@@ -62,3 +62,7 @@ background-color: bisque;
 #contact{
 background-color: blanchedalmond;
 }
+
+.blackBorder{
+border: 12px solid black;
+}
