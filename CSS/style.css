@@ -39,6 +39,7 @@ header nav ul li{
 
 /* Container1 (header image box) */
 .Container1 {
+  position: relative;               /* Position relative for the overlay to be positioned correctly */
   height: 50vh;                      /* Set the height to take up 50% of the viewport height */
   border: 1px solid grey;
   display: flex;
@@ -47,6 +48,22 @@ header nav ul li{
   align-items: center;               /* Center content horizontally */
   color: white;                      /* Set the text color to white */
   text-align: center;                /* Center align the text */
+  overflow: hidden;                  /* Ensure no content overflows */
+}
+.Container1::before {
+  content: '';                      /* Required for pseudo-elements */
+  position: absolute;               /* Position it over the entire container */
+  top: 0;                           /* Start at the top */
+  left: 0;                          /* Start at the left */
+  width: 100%;                      /* Cover full width */
+  height: 100%;                     /* Cover full height */
+  background: rgba(0, 0, 0, 0.5);  /* Semi-transparent black (adjust opacity as needed) */
+  z-index: 1;                       /* Place it behind the content */
+}
+.Container1 h2,
+.Container1 h1 {
+  position: relative;               /* Bring the text above the overlay */
+  z-index: 2;
 }
 .Container1 h2{
   margin: 0 0 20px 0;                /* Add space below the h2 */
