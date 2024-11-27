@@ -8,11 +8,12 @@ header{
   height: 45px;
   display: flex;                    /* Arrange items in a row */
   align-items: center;              /* Vertically center the items */
-  justify-content: space-between;   /* Space between the home-link and navigation menu */
+  justify-content: flex-start;      /* Space between the home-link and navigation menu */
   padding: 10px 20px;               /* Add some spacing inside the header */
 }
 header nav ul{
   list-style: none;                 /* Remove list bullets */
+  display: flex;                    /* Align list items horizontally */
 }
 header nav ul li{
   margin: 0 10px;                   /* Add spacing between navigation links */
