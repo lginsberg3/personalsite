@@ -95,7 +95,7 @@ header nav ul li{
 #about .about-text {
   flex: 1; /* Take up available space */
   font-size: 1.2rem; /* Adjust for better readability */
-  margin-right: 20px; /* Space between text and image */
+  margin-right: 100px; /* Space between text and image */
 }
 #about .about-image {
   flex-shrink: 0; /* Prevent shrinking */
