@@ -23,7 +23,7 @@ color: black;
 }
 
 section{
-height: 100vh;
+height: 50vh;
 border: 1px solid grey;
 display: flex;
 justify-content: center;
