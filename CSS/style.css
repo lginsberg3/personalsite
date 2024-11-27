@@ -77,6 +77,32 @@ header nav ul li{
   color: inherit;                    /* Inherit color from the parent container */
 }
 
+/* About Section */
+#about .Container {
+  display: flex;
+  flex-direction: row; /* Arrange content in a row */
+  justify-content: space-between; /* Space out the columns */
+  align-items: flex-start; /* Align items to the top */
+  gap: 20px; /* Add some space between the columns */
+}
+#about .about-content {
+  display: flex;
+  width: 100%;
+}
+#about .about-text {
+  flex: 1; /* Take up available space */
+  font-size: 1.2rem; /* Adjust for better readability */
+  margin-right: 20px; /* Space between text and image */
+}
+#about .about-image {
+  flex-shrink: 0; /* Prevent shrinking */
+  max-width: 300px; /* Adjust the max width as needed */
+}
+#about .about-image img {
+  width: 100%; /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
 /* Container */
 .Container {
   height: 100vh;
