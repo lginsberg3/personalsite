@@ -8,7 +8,7 @@ header{
   height: 45px;
   display: flex;                    /* Arrange items in a row */
   align-items: center;              /* Vertically center the items */
-  justify-content: flex-start;      /* Space between the home-link and navigation menu */
+  justify-content: space-between;   /* Space between the home-link and navigation menu */
   padding: 10px 20px;               /* Add some spacing inside the header */
 }
 header nav ul{
@@ -20,6 +20,7 @@ header nav ul li{
 }
 header a{
   text-decoration: none;            /* Remove underline */
+  font-family: Arial, sans-serif;   /* Set consistent font family */
   color: black;                     /* Set default text color */
 }
 header a:hover {
