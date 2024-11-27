@@ -110,7 +110,7 @@ header nav ul li{
 /* Container */
 .Container {
   height: 100vh;
-  padding: 100px 400px;                 /* Add padding vertically, horizontally */
+  padding: 200px 400px;                 /* Add padding vertically, horizontally */
   border: 1px solid grey;
   display: flex;
   justify-content: center;
