@@ -82,7 +82,7 @@ header nav ul li{
 #about .Container {
   display: flex;
   flex-direction: row;                /* Arrange content in a row */
-  padding: 200px 200px;               /* Add space to the left and right sides */
+  padding: 400px 400px;               /* Add space to the left and right sides */
   margin: 20px auto;                  /* Center the section and add vertical spacing */
   justify-content: space-between;     /* Space out the columns */
   align-items: flex-start;            /* Align items to the top */
@@ -101,7 +101,7 @@ header nav ul li{
   flex-shrink: 0; /* Prevent shrinking */
 }
 #about .about-image img {
-  margin-bottom: 200px; /* Adds space between images */
+  margin-bottom: 100px; /* Adds space between images */
   width: 100%; /* Make the image responsive */
   height: auto; /* Maintain aspect ratio */
   max-width: 500px; /* Adjust the max width as needed */
