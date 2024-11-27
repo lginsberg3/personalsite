@@ -16,7 +16,7 @@ header{
   display: flex;                    /* Arrange items in a row */
   align-items: center;              /* Vertically center the items */
   justify-content: space-between;   /* Space between the home-link and navigation menu */
-  padding: 10px 20px;               /* Add some spacing inside the header */
+  padding: 20px 20px;               /* Add some spacing inside the header */
 }
 header a{
   text-decoration: none;            /* Remove underline */
