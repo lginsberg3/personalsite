@@ -8,7 +8,6 @@ nav ul li a{
   font-size: 1em;                   /* Adjust this as needed to ensure uniform size */
   text-decoration: none;
   color: inherit;                   /* Use the default text color */
-  font-weight: normal;              /* Set the font weight to normal */
 }
 
 /* Header */
