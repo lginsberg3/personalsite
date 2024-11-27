@@ -35,69 +35,69 @@ header a{
 
 /* Section */
 section{
-height: 100vh;
-border: 1px solid grey;
-display: flex;
-justify-content: center;
-align-items: center;
+  height: 100vh;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Container */
 .Container img{
-height: 300px;
-border-radius: 50%;
-display: block;
-margin: 0 auto;
+  height: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
 }
 .Container p, ul{
-margin-top: 2%;
-font-size: 1.5rem;
+  margin-top: 2%;
+  font-size: 1.5rem;
 }
 
 /* Container1 (header image box) */
 .Container1 h2{
-margin-top: 2%;
-font-size: 3em;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: white;
+  margin-top: 2%;
+  font-size: 3em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
 }
 .Container1 h1{
-font-size: 2em;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-color: white;
+  font-size: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
 }
 .Container1 section{
-height: 50vh;
-border: 1px solid grey;
-display: flex;
-justify-content: center;
-align-items: center;
+  height: 50vh;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Borders */
 .blackBorder{
-border: 12px solid black;
+  border: 12px solid black;
 }
 
 /* Footer */
 footer {
-line-height: 40px;
-display: flex;
-justify-content: center;
-font-size: 1rem;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
 }
 
 /* Backgrounds */
 #intro {
-background-image: url(../Images/bolt-stock-image.jpg);
-background-size:     cover;
-background-repeat:   no-repeat;
-background-position: center center;
+  background-image: url(../Images/bolt-stock-image.jpg);
+  background-size:     cover;
+  background-repeat:   no-repeat;
+  background-position: center center;
 }
 #about{
-background-color:    lavender;
+  background-color:    lavender;
 }
 }
 #contact{
-background-color: lavenderblush;
+  background-color: lavenderblush;
 }
