@@ -48,7 +48,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 color: white;
 }
 .Container1 section{
-height: 100vh;
+height: 50vh;
 border: 1px solid grey;
 display: flex;
 justify-content: center;
