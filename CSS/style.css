@@ -51,18 +51,18 @@ header nav ul li{
 }
 .Container1 h2{
   margin: 0 0 20px 0;                /* Add space below the h2 */
-  font-size: 3em;
+  font-size: 5em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: inherit;                    /* Inherit color from the parent container */
 }
 .Container1 h1{
-  font-size: 2em;
+  font-size: 4em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: inherit;                    /* Inherit color from the parent container */
 }
 
 /* Container */
-.Container section{
+.Container {
   height: 100vh;
   border: 1px solid grey;
   display: flex;
@@ -71,7 +71,6 @@ header nav ul li{
 }
 .Container img{
   height: 300px;
-  border-radius: 50%;
   display: block;
   margin: 0 auto;
 }
