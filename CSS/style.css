@@ -34,6 +34,7 @@ header nav ul li{
   margin: 0 10px;                   /* Add spacing between navigation links */
 }
 .home-link {
+  font-size: 2em;
   font-weight: bold;                /* Make the home-link bold */
 }
 
