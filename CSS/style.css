@@ -81,10 +81,12 @@ header nav ul li{
 /* About Section */
 #about .Container {
   display: flex;
-  flex-direction: row; /* Arrange content in a row */
-  justify-content: space-between; /* Space out the columns */
-  align-items: flex-start; /* Align items to the top */
-  gap: 20px; /* Add some space between the columns */
+  flex-direction: row;                /* Arrange content in a row */
+  padding: 100px 100px;               /* Add space to the left and right sides */
+  margin: 20px auto;                  /* Center the section and add vertical spacing */
+  justify-content: space-between;     /* Space out the columns */
+  align-items: flex-start;            /* Align items to the top */
+  gap: 20px;                          /* Add some space between the columns */
 }
 #about .about-content {
   display: flex;
