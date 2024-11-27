@@ -3,24 +3,37 @@ padding: 0;
 margin: 0;
 }
 
+/* Header */
 header{
-height: 45px;
+  height: 45px;
 }
 header nav ul{
-display: flex;
-margin-left: 70%;
-list-style: none;
+  display: flex;
+  margin-left: 70%;
+  list-style: none;
 }
-
 header nav ul li{
-padding-left: 10%;
+  padding-left: 10%;
 }
-
 header a{
-text-decoration: none;
-color: black;
+  text-decoration: none;
+  color: black;
+}
+.home-link {
+  position: absolute; /* Place it in the top-left corner */
+  top: 10px;          /* Adjust the vertical position */
+  left: 10px;         /* Adjust the horizontal position */
+  text-decoration: none; /* Remove the underline */
+  font-size: 1.2em;    /* Make the text slightly larger */
+  font-weight: bold;   /* Bold the text */
+  color: #000;         /* Set the text color (adjust as needed) */
+}
+.home-link:hover {
+  text-decoration: underline; /* Add an underline on hover */
 }
 
+
+/* Section */
 section{
 height: 100vh;
 border: 1px solid grey;
@@ -29,13 +42,19 @@ justify-content: center;
 align-items: center;
 }
 
+/* Container */
 .Container img{
 height: 300px;
 border-radius: 50%;
 display: block;
 margin: 0 auto;
 }
+.Container p, ul{
+margin-top: 2%;
+font-size: 1.5rem;
+}
 
+/* Container1 (header image box) */
 .Container1 h2{
 margin-top: 2%;
 font-size: 3em;
@@ -55,25 +74,12 @@ justify-content: center;
 align-items: center;
 }
 
-.Container p, ul{
-margin-top: 2%;
-font-size: 1.5rem;
+/* Borders */
+.blackBorder{
+border: 12px solid black;
 }
 
-.home-link {
-  position: absolute; /* Place it in the top-left corner */
-  top: 10px;          /* Adjust the vertical position */
-  left: 10px;         /* Adjust the horizontal position */
-  text-decoration: none; /* Remove the underline */
-  font-size: 1.2em;    /* Make the text slightly larger */
-  font-weight: bold;   /* Bold the text */
-  color: #000;         /* Set the text color (adjust as needed) */
-}
-
-.home-link:hover {
-  color: #007BFF; /* Change the color on hover (adjust as needed) */
-}
-
+/* Footer */
 footer {
 line-height: 40px;
 display: flex;
@@ -81,6 +87,7 @@ justify-content: center;
 font-size: 1rem;
 }
 
+/* Backgrounds */
 #intro {
 background-image: url(../Images/bolt-stock-image.jpg);
 background-size:     cover;
@@ -93,8 +100,4 @@ background-color:    lavender;
 }
 #contact{
 background-color: lavenderblush;
-}
-
-.blackBorder{
-border: 12px solid black;
 }
