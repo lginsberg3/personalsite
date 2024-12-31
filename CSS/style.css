@@ -155,11 +155,17 @@ header nav ul li{
 /* Container */
 .Container {
   height: 100vh;
-  padding: 200px 400px;                 /* Add padding vertically, horizontally */
+  padding: clamp(50px, 20vw, 200px) clamp(20px, 20vw, 400px); /* Dynamic padding */
   /* border: 1px solid grey; */
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* Adjust padding for smaller screens */
+@media (max-width: 600px) {
+  .Container {
+    padding: 20px 10px; /* Reduce padding for smaller devices */
+  }
 }
 .Container h1{
   font-size: 3em;
