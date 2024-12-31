@@ -60,11 +60,11 @@ header nav ul li{
 /* Adjust styles for smaller screens */
 @media (max-width: 600px) {
   header a {
-    font-size: 0.875rem;            /* Smaller font size for mobile devices (14px equivalent) */
+    font-size: 1rem;            /* Smaller font size for mobile devices (14px equivalent) */
   }
 
   header nav ul li {
-    margin: 5px 0;                  /* Adjust margin for stacked layout */
+    margin: 10px 10px;                  /* Adjust margin for stacked layout */
   }
 
   .home-link {
