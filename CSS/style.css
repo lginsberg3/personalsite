@@ -181,7 +181,15 @@ header nav ul li{
   margin-top: 2%;
   font-size: 1.5rem;
 }
-
+/* Adjust font sizes for smaller screens */
+@media (max-width: 600px) {
+  .Container h1{
+    font-size: 2em; /* Reduce font size for smaller devices */
+  }
+  .Container p, ul{
+    font-size: 1em; /* Reduce font size for smaller devices */
+  }
+}
 /* Borders */
 .blackBorder{
   border: 2px solid black;
