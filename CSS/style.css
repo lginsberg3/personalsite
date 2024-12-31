@@ -35,7 +35,7 @@ header a{
   text-decoration: none;            /* Remove underline */
   font-family: Arial, sans-serif;   /* Set consistent font family */
   color: black;                     /* Set default text color */
-  font-size: 1rem;                  /* Base font size for larger screens */
+  font-size: 1.5rem;                /* Base font size for larger screens */
 }
 header a:hover {
   text-decoration: underline;       /* Add an underline on hover */
