@@ -30,24 +30,46 @@ header{
   }
 }
 
+/* Header links */
 header a{
   text-decoration: none;            /* Remove underline */
   font-family: Arial, sans-serif;   /* Set consistent font family */
   color: black;                     /* Set default text color */
+  font-size: 1rem;                  /* Base font size for larger screens */
 }
 header a:hover {
   text-decoration: underline;       /* Add an underline on hover */
 }
+
+/* Navigation list */
 header nav ul{
   list-style: none;                 /* Remove list bullets */
   display: flex;                    /* Align list items horizontally */
+  flex-wrap: wrap;                  /* Allow wrapping on smaller screens */
 }
 header nav ul li{
   margin: 0 10px;                   /* Add spacing between navigation links */
 }
+
+/* Home link */
 .home-link {
   font-size: 2em;
   font-weight: bold;                /* Make the home-link bold */
+}
+
+/* Adjust styles for smaller screens */
+@media (max-width: 600px) {
+  header a {
+    font-size: 0.875rem;            /* Smaller font size for mobile devices (14px equivalent) */
+  }
+
+  header nav ul li {
+    margin: 5px 0;                  /* Adjust margin for stacked layout */
+  }
+
+  .home-link {
+    font-size: 1.5em;               /* Reduce size of home-link for smaller screens */
+  }
 }
 
 /* Container1 (header image box) */
