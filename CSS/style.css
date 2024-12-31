@@ -76,7 +76,7 @@ header nav ul li{
 .Container1 {
   position: relative;               /* Position relative for the overlay to be positioned correctly */
   height: 50vh;                      /* Set the height to take up 50% of the viewport height */
-  border: 1px solid grey;
+  /*border: 1px solid grey;*/
   display: flex;
   flex-direction: column;            /* Align content in a column */
   justify-content: center;           /* Center content vertically */
@@ -105,6 +105,13 @@ header nav ul li{
   font-size: 5em;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: inherit;                    /* Inherit color from the parent container */
+}
+/* Adjust h2 for smaller screens */
+@media (max-width: 600px) {
+  .Container1 h2 {
+    font-size: 3em;                  /* Reduce font size for better readability on mobile */
+    margin: 0 0 20px 0;              /* Reduce margin for better spacing on smaller screens */
+  }
 }
 .Container1 h1{
   font-size: 3em;
