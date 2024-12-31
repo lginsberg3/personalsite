@@ -12,12 +12,22 @@ nav ul li a{
 
 /* Header */
 header{
-  height: 45px;
+  height: auto;
   display: flex;                    /* Arrange items in a row */
   align-items: center;              /* Vertically center the items */
   justify-content: space-between;   /* Space between the home-link and navigation menu */
   padding: 20px 20px;               /* Add some spacing inside the header */
+  flex-wrap: wrap;                  /* Allow items to wrap on smaller screens */
 }
+/* Adjust header for smaller screens */
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;        /* Stack items vertically */
+    align-items: flex-start;       /* Align items to the left */
+    padding: 10px;                 /* Reduce padding for smaller screens */
+  }
+}
+
 header a{
   text-decoration: none;            /* Remove underline */
   font-family: Arial, sans-serif;   /* Set consistent font family */
