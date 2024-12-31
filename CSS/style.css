@@ -4,11 +4,11 @@ margin: 0;
 }
 
 /* General styling for all navigation links */
-nav ul li a{
-  font-size: 1em;                   /* Adjust this as needed to ensure uniform size */
-  text-decoration: none;
-  color: inherit;                   /* Use the default text color */
-}
+/*nav ul li a{
+  font-size: 1em;*/                   /* Adjust this as needed to ensure uniform size */
+  /*text-decoration: none;
+  color: inherit;  */                 /* Use the default text color */
+/*}*/
 
 /* Header */
 header{
