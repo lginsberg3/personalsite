@@ -152,6 +152,25 @@ header nav ul li{
   display: block; /* Ensures the images are block-level elements */
 }
 
+/* Responsive styling for mobile screens */
+@media (max-width: 600px) {
+  #about .Container {
+    flex-direction: column;           /* Stack content vertically */
+    align-items: center;              /* Center-align for better aesthetics */
+    gap: 30px;                        /* Add spacing between the stacked elements */
+  }
+
+  #about .about-text {
+    margin-right: 0;                  /* Remove right margin on mobile */
+    text-align: center;               /* Center-align text for better readability */
+  }
+
+  #about .about-image img {
+    margin-bottom: 20px;              /* Reduce margin between images */
+    max-width: 100%;                  /* Ensure images fit within the screen width */
+  }
+}
+
 /* Container */
 .Container {
   height: 100vh;
