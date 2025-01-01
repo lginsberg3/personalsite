@@ -159,6 +159,9 @@ header nav ul li{
     align-items: center;              /* Center-align for better aesthetics */
     gap: 30px;                        /* Add spacing between the stacked elements */
   }
+  #about .about-content {
+    flex-direction: column;           /* Stack content vertically */
+  }
 
   #about .about-text {
     margin-right: 0;                  /* Remove right margin on mobile */
@@ -179,6 +182,7 @@ header nav ul li{
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: fit-content;
 }
 /* Adjust padding for smaller screens */
 @media (max-width: 600px) {
