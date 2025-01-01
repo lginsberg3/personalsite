@@ -24,9 +24,9 @@ header{
 @media (max-width: 600px) {
   header {
     flex-direction: column;        /* Stack items vertically */
-    align-items: flex-start;       /* Align items to the left */
+    align-items: center;           /* Align items in the center */
     padding: 10px;                 /* Reduce padding for smaller screens */
-    font-size: 0.875rem;           /* Smaller font size for mobile devices (14px equivalent) */
+    font-size: 1rem;               /* Smaller font size for mobile devices (14px equivalent) */
   }
 }
 
@@ -165,7 +165,7 @@ header nav ul li{
 
   #about .about-text {
     margin-right: 0;                  /* Remove right margin on mobile */
-    text-align: center;               /* Center-align text for better readability */
+    text-align: justify;              /* Justify text for better readability */
   }
 
   #about .about-image img {
