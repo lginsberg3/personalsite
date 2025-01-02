@@ -165,7 +165,6 @@ header nav ul li{
 
   #about .about-text {
     margin-right: 0;                  /* Remove right margin on mobile */
-    text-align: justify;              /* Justify text for better readability */
   }
 
   #about .about-image img {
