@@ -248,8 +248,19 @@ footer {
   gap: 10px; /* Adds space between buttons */
 }
 
-.button-container button {
+.button-container .button {
   flex: 1; /* Ensures buttons are evenly spaced and of equal width */
   padding: 10px; /* Adjusts button size */
+  text-align: center; /* Centers text in the button */
+  text-decoration: none; /* Removes underline from links */
+  color: white; /* Button text color */
+  background-color: #7951C2; /* Button background color */
+  border: none; /* Removes border */
+  border-radius: 5px; /* Adds rounded corners */
   font-size: 16px; /* Optional: Adjust font size */
+  display: inline-block; /* Ensures proper button appearance */
+}
+
+.button-container .button:hover {
+  background-color: #412B6B; /* Darker color on hover */
 }
