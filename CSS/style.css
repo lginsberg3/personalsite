@@ -269,6 +269,16 @@ footer {
   background-color: #412B6B; /* Darker color on hover */
 }
 
+@media (max-width: 600px) {
+  .button-container .button {
+    display: block; /* Stacks the buttons vertically */
+    width: 90%; /* Ensures buttons fit within the screen */
+    margin: 10px auto; /* Centers the buttons with space between */
+    font-size: 14px; /* Slightly smaller font for better fit */
+    padding: 8px 10px; /* Adjust padding for a sleeker look */
+  }
+}
+
 #social-links {
   text-align: center;
   margin: 20px 0;
