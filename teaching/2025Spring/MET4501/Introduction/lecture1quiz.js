@@ -46,48 +46,65 @@ const quizData = [
     },
   ];
   
-  const questionElement = document.getElementById("question");
-  const optionsElement = document.getElementById("options");
-  const submitButton = document.getElementById("submit");
-  
-  let currentQuestion = 0;
-  let score = 0;
-  
-  function showQuestion() {
+const questionElement = document.getElementById("question");
+const optionsElement = document.getElementById("options");
+const quizElement = document.getElementById("quiz");
+
+let currentQuestion = 0;
+let score = 0;
+let userAnswers = []; // Store user's answers
+
+function showQuestion() {
     const question = quizData[currentQuestion];
     questionElement.innerText = question.question;
-  
+
     optionsElement.innerHTML = "";
     question.options.forEach(option => {
-      const button = document.createElement("button");
-      button.innerText = option;
-      optionsElement.appendChild(button);
-      button.addEventListener("click", selectAnswer);
+        const button = document.createElement("button");
+        button.innerText = option;
+        optionsElement.appendChild(button);
+        button.addEventListener("click", selectAnswer);
     });
-  }
-  
-  function selectAnswer(e) {
+}
+
+function selectAnswer(e) {
     const selectedButton = e.target;
     const answer = quizData[currentQuestion].answer;
-  
+
+    // Store whether the answer was correct and the user's choice
+    userAnswers.push({
+        question: quizData[currentQuestion].question,
+        selected: selectedButton.innerText,
+        correct: selectedButton.innerText === answer,
+        correctAnswer: answer
+    });
+
     if (selectedButton.innerText === answer) {
-      score++;
+        score++;
     }
-  
+
     currentQuestion++;
-  
+
     if (currentQuestion < quizData.length) {
-      showQuestion();
+        showQuestion();
     } else {
-      showResult();
+        showResult();
     }
-  }
-  
-  function showResult() {
-    quiz.innerHTML = `
-      <h1>Quiz Completed!</h1>
-      <p>Your score: ${score}/${quizData.length}</p>
-    `;
-  }
-  
-  showQuestion();
+}
+
+function showResult() {
+    quizElement.innerHTML = `<h1>Quiz Completed!</h1>
+                             <p>Your score: ${score}/${quizData.length}</p>
+                             <h2>Review Your Answers:</h2>`;
+
+    userAnswers.forEach((entry, index) => {
+        const questionResult = document.createElement("div");
+        questionResult.innerHTML = `<p><strong>Q${index + 1}:</strong> ${entry.question}</p>
+                                    <p><strong>Your answer:</strong> ${entry.selected} ${entry.correct ? "✅" : "❌"}</p>
+                                    ${!entry.correct ? `<p><strong>Correct answer:</strong> ${entry.correctAnswer}</p>` : ""}
+                                    <hr>`;
+        quizElement.appendChild(questionResult);
+    });
+}
+
+showQuestion();
