@@ -15,6 +15,12 @@ const quizData = [
       answer: "The margin by which a material exceeds design requriements."
     },
     {
+      question: "Which of the following typically has the lowest factor of safety?",
+      options: ["Aircraft components", "A screwdriver", "Structural steel", "Cast-iron wheels"],
+      answer: "Aircraft components"
+    },
+    {
+    {
       question: "You are designing a flywheel for an energy storage application. The factor of safety for the flywheel is most likely:",
       options: ["1.2", "2.0", "5.0", "10"],
       answer: "2.0"
