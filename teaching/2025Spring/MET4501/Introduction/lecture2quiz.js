@@ -49,19 +49,19 @@ const quizData = [
       multi: true
     },
     {
-      question: "In mechanical design, the ultimate goal is to:",
-      options: ["Minimize the factor of safety.", "Achieve a balance between performance, safety, and cost.", "Maximize the use of high-strength materials.", "Reduce manufacturing complexity."],
-      answer: "Achieve a balance between performance, safety, and cost."
+      question: "For a beam in bending, where is the shear stress maximum?",
+      options: ["At the neutral axis.", "At the outermost fibers.", "At the centroid.", "Shear stress is constant across the section."],
+      answer: "At the neutral axis."
     },
     {
-      question: "What is the best practice when using AI-generated content for decision-making?",
-      options: ["Assume all information is accurate since it comes from a sophisticated algorithm.", "Cross-check the information with credible, independent sources.", "Use it directly without further investigation to save time.", "Trust AI completely if it is a premium or paid service."],
-      answer: "Cross-check the information with credible, independent sources."
+      question: "A solid circular shaft is subjected to torsion. How does the shear stress vary across the cross-section?",
+      options: ["It is constant across the section.", "It is zero at the center and maximum at the outer surface.", "It is maximum at the center and zero at the outer surface.", "It increases linearly toward the neutral axis."],
+      answer: "It is zero at the center and maximum at the outer surface."
     },
     {
-      question: "According to professional engineering ethic standards, engineers should:",
-      options: ["Keep proprietary information confidential, even if it involves public safety.", "Refuse to take responsibility for errors made by a team they supervised.", "Perform services only in areas of their competence and qualifications.", "Accept gifts from suppliers as part of professional networking."],
-      answer: "Perform services only in areas of their competence and qualifications."
+      question: "In a beam under pure bending, where is the maximum normal stress located?",
+      options: ["At the neutral axis.", "At the outermost fibers of the beam.", "At the centroid of the beam's cross-section.", "At the midpoint of the beam's length."],
+      answer: "At the outermost fibers of the beam."
     },
   ];
   
