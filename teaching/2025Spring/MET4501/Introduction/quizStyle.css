@@ -10,9 +10,10 @@ body {
   background-color: #66ebf0;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(198, 222, 60, 0.2);
+  text-align: center;
 }
 
-h1 {
+#quiz h1 {
   text-align: center;
   color: #333333;
 }
@@ -31,13 +32,18 @@ button {
   display: block;
   margin: 0 auto;
   padding: 10px 20px;
-  background-color: rgb(227, 238, 10), 245, 161);
+  background-color: rgb(227, 238, 10); /* fixed */
   color: #131313;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 button:hover {
   background-color: #8f8d8d;
+}
+
+button:focus {
+  outline: 2px solid #333;
 }
