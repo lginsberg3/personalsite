@@ -30,7 +30,7 @@ const quizData = [
     {
       question: "All questions in this section refer to the below image of a cantilevered bracket. It is acted on by loads at locations B, C, and D. The internal loads acting in segment BC are (select all that apply):",
       options: ["Axial", "Torsion", "Bending", "Transverse Shear"],
-      answer: "Axial",
+      answer: ["Axial"],
       image: "images/Lecture2Quiz_Img2.PNG",
       multi: true
     },
