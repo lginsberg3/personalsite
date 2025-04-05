@@ -1,39 +1,52 @@
 const quizData = [
     {
-      question: "Which of the following statements best describes the process of design in the context of this course (MET 4501: Machine Design)?",
-      options: ["Design is the act of creating an entirely new device to solve a problem.", "Design is a decision-making process focused on meeting a specified need through planning.", "Design involves formulating multiple inventions for commercial production.", "Design is mainly focused on the aesthetic choices to create an appealing product."],
-      answer: "Design is a decision-making process focused on meeting a specified need through planning.",
-      image: "images/Lecture2Quiz_Img1.PNG"
+      question: "All questions in this section refer to the below image of a cantilevered bracket. It is acted on by a 200 N force in the +y direction at location E and a 300 N force in the +x direction at location C. The internal loads acting in segment CD are (select all that apply):",
+      options: ["Axial", "Torsion", "Bending", "Transverse Shear"],
+      answer: ["Bending", "Transverse Shear"],
+      image: "images/Lecture2Quiz_Img1.PNG",
+      multi: true
     },
     {
-      question: "What is an iterative design process?",
-      options: ["A process that begins and ends with a single solution.", "A linear process with no feedback loops.", "A repetitive process that refines and optimizes design solutions.", "A process that avoids changes to the original design."],
-      answer: "A repetitive process that refines and optimizes design solutions."
+      question: "The internal loads acting in segment CD are (select all that apply):",
+      options: ["Axial", "Torsion", "Bending", "Transverse Shear"],
+      answer: ["Axial","Bending"],
+      image: "images/Lecture2Quiz_Img1.PNG",
+      multi: true
     },
     {
-      question: "What does the factor of safety represent?",
-      options: ["The margin by which a material exceeds design requriements.", "The minimum allowable stress for a material.", "The ratio of applied load to ultimate load capacity.", "The likelihood of a design failing."],
-      answer: "The margin by which a material exceeds design requriements."
+      question: "The internal loads acting in segment BE are (select all that apply):",
+      options: ["Axial", "Torsion", "Bending", "Transverse Shear"],
+      answer: ["Bending", "Transverse Shear"],
+      image: "images/Lecture2Quiz_Img1.PNG",
+      multi: true
     },
     {
-      question: "Which of the following typically has the lowest factor of safety?",
-      options: ["Aircraft components", "A screwdriver", "Structural steel", "Cast-iron wheels"],
-      answer: "Aircraft components"
+      question: "The internal loads acting in segment AB are (select all that apply):",
+      options: ["Axial", "Torsion", "Bending", "Transverse Shear"],
+      answer: ["Axial", "Torsion", "Bending", "Transverse Shear"],
+      image: "images/Lecture2Quiz_Img1.PNG",
+      multi: true
     },
     {
-      question: "You are designing a flywheel for an energy storage application. The factor of safety for the flywheel is most likely:",
-      options: ["1.2", "2.0", "5.0", "10"],
-      answer: "2.0"
+      question: "All questions in this section refer to the below image of a cantilevered bracket. It is acted on by loads at locations B, C, and D. The internal loads acting in segment BC are (select all that apply):",
+      options: ["Axial", "Torsion", "Bending", "Transverse Shear"],
+      answer: "Axial",
+      image: "images/Lecture2Quiz_Img2.PNG",
+      multi: true
     },
     {
-      question: "A free-body diagram is mainly used to:",
-      options: ["Select materials.", "Evaluate aesthetic design features.", "Analyze forces acting on a body.", "Predict manufacturing costs."],
-      answer: "Analyze forces acting on a body."
+      question: "The internal loads acting in segment BD are (select all that apply):",
+      options: ["Axial", "Torsion", "Bending", "Transverse Shear"],
+      answer: ["Bending", "Transverse Shear"],
+      image: "images/Lecture2Quiz_Img2.PNG",
+      multi: true
     },
     {
-      question: "What is the primary purpose of design codes and standards?",
-      options: ["To enhance aesthetic appeal.", "To provide consistent guidelines ensuring safety and functionality.", "To reduce manufacturing costs.", "To enforce uniformity in patent filings."],
-      answer: "To provide consistent guidelines ensuring safety and functionality."
+      question: "The internal loads acting in segment AB are (select all that apply):",
+      options: ["Axial", "Torsion", "Bending", "Transverse Shear"],
+      answer: ["Axial", "Torsion", "Bending", "Transverse Shear"],
+      image: "images/Lecture2Quiz_Img2.PNG",
+      multi: true
     },
     {
       question: "In mechanical design, the ultimate goal is to:",
