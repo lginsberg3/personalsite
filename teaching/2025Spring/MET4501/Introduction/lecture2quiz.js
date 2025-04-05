@@ -3,7 +3,7 @@ const quizData = [
       question: "Which of the following statements best describes the process of design in the context of this course (MET 4501: Machine Design)?",
       options: ["Design is the act of creating an entirely new device to solve a problem.", "Design is a decision-making process focused on meeting a specified need through planning.", "Design involves formulating multiple inventions for commercial production.", "Design is mainly focused on the aesthetic choices to create an appealing product."],
       answer: "Design is a decision-making process focused on meeting a specified need through planning.",
-      image: "images/Lecture2Quiz_Img1.png"
+      image: "images/Lecture2Quiz_Img1.PNG"
     },
     {
       question: "What is an iterative design process?",
