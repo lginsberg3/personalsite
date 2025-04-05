@@ -20,7 +20,6 @@ const quizData = [
       answer: "Aircraft components"
     },
     {
-    {
       question: "You are designing a flywheel for an energy storage application. The factor of safety for the flywheel is most likely:",
       options: ["1.2", "2.0", "5.0", "10"],
       answer: "2.0"
