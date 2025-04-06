@@ -154,7 +154,7 @@ function showNext() {
 }
 
 function showResult() {
-  quizContainer.innerHTML = `
+  quizElement.innerHTML = `
     <h1>Quiz Completed!</h1>
     <p>Your score: ${score}/${quizData.length}</p>
     <h2>Feedback:</h2>
