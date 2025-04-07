@@ -11,45 +11,44 @@ const quizData = [
       image: "images/Lecture10Quiz_Img1.PNG"
     },
     {
-      question: "3. (of 10) A brittle material has the properties Sut = 210 MPa and Suc = 630 MPa. Using the brittle Coulomb-Mohr (BCM) and modified-Mohr (MM) theories, determine the factor of safety for the following state of plane stress: sigma_x = 140 MPa, tau_xy = -70 MPa",
-      options: ["BCM: n = 1.2, MM: n = 1.2", "BCM: n = 1.3, MM: n = 1.4", "BCM: n = 2.8, MM: n = 1.7", "BCM: n = 2.2, MM: n = 2.2"],
-      answer: "BCM: n = 1.2, MM: n = 1.2"
+      question: "3. (of 10) It is not uncommon for fatigue tests to test specimens up to 10^9 stress cycles. Assuming continuous operation of the tester, estimate the time required to achieve 10^9 stress cycles using each of the following tester: A traditional servohydraulic testing machine (which can run up to around 50 Hz)",
+      options: ["7 months", "12 days", "5 hours", "200 years"],
+      answer: "7 months"
     },
     {
-      question: "4. (of 10) A brittle material has the properties Sut = 210 MPa and Suc = 630 MPa. Using the brittle Coulomb-Mohr (BCM) and modified-Mohr (MM) theories, determine the factor of safety for the following state of plane stress: sigma_x = -105 MPa, sigma_y = 70 MPa, tau_xy = -105 MPa",
-      options: ["BCM: n = 0.8, MM: n = 1.1", "BCM: n = 1.6, MM: n = 1.6", "BCM: n = 2.5, MM: n = 2.2", "BCM: n = 1.2, MM: n = 1.6"],
-      answer: "BCM: n = 1.2, MM: n = 1.6"
+      question: "4. (of 10) It is not uncommon for fatigue tests to test specimens up to 10^9 stress cycles. Assuming continuous operation of the tester, estimate the time required to achieve 10^9 stress cycles using each of the following tester: A rotating beam fatigue testing system (which can achieve speeds up to 10,000 rpm)",
+      options: ["2 months", "1 day", "9 hours", "3 years"],
+      answer: "2 months"
     },
     {
-      question: "5. (of 10) A brittle material has the properties Sut = 210 MPa and Suc = 630 MPa. Using the brittle Coulomb-Mohr (BCM) and modified-Mohr (MM) theories, determine the factor of safety for the following state of plane stress: sigma_x = -140 MPa, sigma_y = -140 MPa, tau_xy = -105 MPa",
-      options: ["BCM: n = 2.0, MM: n = 2.0", "BCM: n = 1.1, MM: n = 0.7", "BCM: n = 2.6, MM: n = 2.6", "BCM: n = 0.7, MM: n = 1.1"],
-      answer: "BCM: n = 2.6, MM: n = 2.6"
+      question: "5. (of 10) A part is subjected to cyclic loading at a frequency of 100 Hz. The part is required to be designed for infinite life. Which material should be used?",
+      options: ["AISI 1035 steel", "Al 6061-T6 (aluminum alloy)", "Either AISI 1035 steel or Al 6061-T6 can be used.", "Neither AISI 1035 steel nor Al 6061-T6 should be used."],
+      answer: "AISI 1035 steel"
     },
     {
-      question: "6. (of 10) For brittle materials, failure typically occurs when:",
-      options: ["The maximum shear stress reaches a critical value", "The material deforms plastically", "The tensile strength is exceeded", "The von Mises stress reaches a critical value"],
-      answer: "The tensile strength is exceeded"
+      question: "6. (of 10) A material has an ultimate tensile strength of 1500 MPa. Identify the most likely value for the fully corrected endurance limit, Se",
+      options: ["750 MPa", "400 MPa", "40 MPa", "None of these"],
+      answer: "400 MPa"
     },
     {
-      question: "7. (of 10) Select all failure theories that are applicable for brittle materials under static loading:",
-      options: ["Modified Mohr (MM)", "Brittle Coulomb-Mohr (BCM)", "Maximum Normal Stress (MNS)", "Distortion-energy (DE)", "Maximum Shear Stress (MSS)", "Ductile Coulomb-Mohr (DCM)"],
-      answer: ["Modified Mohr (MM)", "Brittle Coulomb-Mohr (BCM)", "Maximum Normal Stress (MNS)"],
-      multi: true
+      question: "7. (of 10) Estimate S'e in MPa for an AISI 1035 CD (Cold-Drawn) steel. Use Table A-20 in Shigley's Mechanical Engineering Design to find any material properties.",
+      options: ["275 MPa", "700 MPa", "100 MPa", "137.5 MPa"],
+      answer: "275 MPa"
     },
     {
-      question: "8. (of 10) What does Mode I fracture refer to?",
-      options: ["Shear sliding", "Out-of-plane tearing", "Tensile opening", "Compression"],
-      answer: "Tensile opening"
+      question: "8. (of 10) Estimate S'e in MPa for an AISI 1050 HR (Hot-Rolled) steel. Use Table A-20 in Shigley's Mechanical Engineering Design to find any material properties.",
+      options: ["810.16 MPa", "700 MPa", "400 MPa", "45 MPa"],
+      answer: "700 MPa"
     },
     {
-      question: "9. (of 10) Mode III fracture is best described as:",
-      options: ["Tensile crack opening", "In-plane shear", "Out-of-plane shear (tearing)", "Compression failure"],
-      answer: "Out-of-plane shear (tearing)"
+      question: "9. (of 10) Estimate S'e in MPa for an AISI 4130 steel heat-treated to a tensile strength of 1620.325 MPa. Use Table A-20 in Shigley's Mechanical Engineering Design to find any material properties.",
+      options: ["310 MPa", "700 MPa", "155 MPa", "200 MPa"],
+      answer: "310 MPa"
     },
     {
-      question: "10. (of 10) A penny-shaped crack in a rod under uniform tension would most likely fail in which mode?",
-      options: ["Mode I", "Mode II", "Mode III","Mixed-mode",],
-      answer: "Mode I"
+      question: "10. (of 10) Estimate the endurance strength (Se) of a 38.100 mm-diameter rod of AISI 1040 steel having a machined finish and heat-treated to a tensile strength of 758.450 MPa, loaded in rotating bending.",
+      options: ["152.90 MPa", "229.36 MPa", "194.95 MPa", "135.32 MPa"],
+      answer: "229.36 MPa"
     },
   ];
   
