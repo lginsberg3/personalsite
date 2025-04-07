@@ -29,7 +29,7 @@ const quizData = [
       image: "images/Lecture6Quiz_Img1.PNG",
     },
     {
-      question: "6. (of 10) Which label on the stress-strain curve corresponds with the proportional limit (el)? Hint: This is the point until which Hooke's Law can be applied.",
+      question: "6. (of 10) Which label on the stress-strain curve corresponds with the proportional limit (pl)? Hint: This is the point until which Hooke's Law can be applied.",
       options: ["A", "B", "C", "D", "E"],
       answer: "A",
       image: "images/Lecture6Quiz_Img1.PNG",
