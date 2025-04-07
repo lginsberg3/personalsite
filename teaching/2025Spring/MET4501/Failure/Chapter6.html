@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Chapter 5: Static Failure Theories</title>
+  <title>Chapter 6: Fatigue Failure</title>
   <link rel="stylesheet" href="../../../../CSS/style.css">
 </head>
 <body>
@@ -23,7 +23,7 @@
 <section id="intro">
   <div class="Container1">
     <h2>Module 2 - Failure Prevention</h2>
-    <h1>Chapter 5: Static Failure Theories</h1>
+    <h1>Chapter 6: Fatigue Failure</h1>
   </div> 
 </section>
 
@@ -31,43 +31,43 @@
   <section id="teaching">
   <div class="Container">
     <div class="about-text">
-      <h1>Chapter 5 Overview</h1>
+      <h1>Chapter 6 Overview</h1>
       <p>
-          Chapter 5 covers the following key concepts:
+          Chapter 6 covers the following key concepts:
       </p>
       <ul>
-        <li>Examination of failure modes under static loading conditions.</li>
-        <li>Introduction to common failure criteria, including Maximum Normal Stress, Maximum Shear Stress, and Distortion Energy theories.</li>
-        <li>Application of static failure theories in the design of safe and reliable machine components.</li>
+        <li>Exploration of material behavior under cyclic loading and its implications for design.</li>
+        <li>Introduction to fatigue life estimation techniques, including S-N curves and the Goodman line.</li>
+        <li>Discussion of factors influencing fatigue failure, such as surface finish, size, and environmental conditions.</li>
       </ul>
       <p></p>
       <hr>
       <p></p>
       
-      <h1>Lecture 5: Introduction to Failure Prevention</h1>
+      <h1>Lecture 9: Introduction to Fatigue</h1>
       <p>
-          We will begin delving into the critical aspects of failure analysis in mechanical engineering today. The following will help you prepare for this discussion:
+          Today, we're beginning our study of fatigue failures. Understanding this topic has been somewhat elusive, perhaps because it depends on a combination of many variables, with a high level of randomness. Nevertheless, there are models we can use to study this phenomenon, and (hopefully) prevent future catastrophes due to this insidious mode of failure.
       </p>
       <ul>
           <li>
               <strong>Read</strong>
               <ul>
-                  <li>Sections 5.3-5.7 of <i>Shigley's Mechanical Engineering Design</i> to review fundamental concepts from mechanics of materials and begin reading about failure theories.</li>
+                  <li>Sections 6.1-6.7 of <i>Shigley's Mechanical Engineering Design</i></li>
               </ul>
           </li>
         <p></p>
           <li>
               <strong>Watch</strong>
               <ul>
-                  <li><i><a href="https://www.youtube.com/watch?v=4PbdRgyW0uI&ab_channel=ElementMaterialsTechnologyCincinnati">Tensile Test on ASME Welded Sample (#FridayFails)</a></i>: Notice how the specimen yields by "necking down" before failure.</li>
-                  <li><i><a href="https://www.youtube.com/watch?v=cZINeaDjisY&ab_channel=PracticalEngineering">Why Concrete Needs Reinforcement</a></i>: Learn about why concrete is often reinforced using rebar.</li>
+                  <li><i><a href="https://www.youtube.com/watch?v=JJoBRYxjHmc&ab_channel=SmithsonianChannelAviationNation">Incredible Footage of the Damage Endured by Aloha Airlines 243: Air Disasters | Smithsonian Channel</a></i>: On April 28, 1988, a Boeing 737-297 serving the flight suffered extensive damage after an explosive decompression in flight, caused by part of the fuselage breaking due to poor maintenance and metal fatigue [according to the <a href="https://en.wikipedia.org/wiki/Aloha_Airlines_Flight_243">Wikipedia page</a>]. Watch the linked video showing Aloha Airlines 243 shortly after its emergency landing on April 28, 1988, reveals a 737 with the front part of the cabin almost completely missing.</li>
+                  <li><i><a href="https://www.youtube.com/watch?v=UVxyzpab3wE&ab_channel=GeekyLyrics">No Highway In The Sky 1951 Full Movie HD ( With English Subtitle)</a></i>: If you have time over the weekend, watch this movie which features James Stewart, Jack Hawkins, Maurice Denham, Marlene Dietrich, Wilferd Hyde White and a fatigue failure. This story was incredibly prescient to the metal fatigue issues encountered by the DeHavilland Comet jet airliner at the time, resulting in fatal crashes in the early 1950s, thus prompting the grounding of the entire fleet.</li>
               </ul>
           </li>
         <p></p>
           <li>
               <strong>Practice</strong>
               <ul>
-                  <li>Problems 5-51 and 5-60 from <i>Shigley's Mechanical Engineering Design</i>, and then review the solutions posted.</li>
+                  <li>Problems 6-3 and 6-5 from <i>Shigley's Mechanical Engineering Design</i>, and then review the solutions posted.</li>
               </ul>
           </li>
         <p></p>
@@ -77,45 +77,48 @@
       <hr>
       <p></p>
 
-      <h1>Lecture 5 Notes</h1>
+      <h1>Lecture 9 Notes</h1>
       <ul>
-        <li>Lecture 5 Notes[<a href="Lecture 5 Notes January 21, 2025.pdf" dowload="Lecture 5 Notes January 21, 2025.pdf">pdf</a>]</li>
+        <li>Lecture 9(A) Notes[<a href="Lecture 9(A) Notes February 6, 2025.pdf" dowload="Lecture 9(A) Notes February 6, 2025.pdf">pdf</a>]</li>
+        <li>Lecture 9(B) Notes[<a href="Lecture 9(B) Notes February 6, 2025.pdf" dowload="Lecture 9(B) Notes February 6, 2025.pdf">pdf</a>]</li>
       </ul>
       <p></p>
       <hr>
       <p></p>
 
-      <h1>Lecture 6: Static Failure Theories for Ductile Materials</h1>
+      <h1>Lecture 10: Endurance Limit Modifying Factors</h1>
       <p>
-          We will look at failure theories for ductile materials, including the maximum shear stress (MSS), Distortion Energy (DE), Ductile Coulomb-Mohr (DCM) theories.
+          In this lecture, we will take a deeper look at&nbsp;endurance limit modifying factors, also known as Marin factors, which help refine fatigue life predictions by accounting for real-world influences on material strength. We'll explore how factors such as surface finish, size, loading, temperature, reliability, and manufacturing processes affect the endurance limit of a material.
       </p>
       <ul>
           <li>
               <strong>Read</strong>
               <ul>
-                  <li>Section 5.3-5.7 of <i>Shigley's Mechanical Engineering Design</i> to read about failure theories for ductile materials.</li>
+                  <li>Section 6.8, 6.9, and 6.19 of <i>Shigley's Mechanical Engineering Design</i></li>
               </ul>
           </li>
         <p></p>
           <li>
               <strong>Watch</strong>
               <ul>
-                  <li><i><a href="https://www.youtube.com/watch?v=kL4w8pkRLeg&ab_channel=UABMedicine">Metal Hip</a></i>: Learn about the differences between metal-metal and metal-plastic hip implants through a real-world perspective.</li>
-                  <li><i><a href="https://www.youtube.com/watch?v=A5dF3dKUk6g&ab_channel=TheJonathanRossShow">Steve Carell's Scary Hip Replacement | The Jonathan Ross Show</a></i>: Hear Steve Carell's humorous take on materials selection for his hip replacement.</li>
+                <li><i><a href="https://www.youtube.com/watch?v=DykiHVrVkKg&ab_channel=TWILtd">An Introduction to Fatigue Testing at TWI</a></i>: Take note of the visual difference between the fracture surfaces after failure due to static overload vs. failure due to fatigue.</li>
+                <li><i><a href="https://www.youtube.com/watch?v=hASl6d3z3BM&ab_channel=LSPTechnologies">Fatigue Test of Aluminum Sample</a></i>: Remember that aluminum has no endurance limit! It will fail due to fatigue eventually, the question is only how many cycles it can sustain.</li>
+                <li><i><a href="https://www.youtube.com/watch?v=Bgsi3AK1ju4&ab_channel=MTSSystems">Take a Closer Look at Fatigue and Fracture: Fatigue Crack Growth Test</a></i>: This demonstrates the use of an ASTM/ISO standard compact tension (CT) specimen, used extensively in the world of experimental fracture mechanics.</li>
+                <li><i><a href="https://www.youtube.com/watch?v=AK1KqfWtEnk&ab_channel=ADMETTestingSystems">ADMET- Rotating Beam Fatigue Demonstration</a></i>: This is the test we discussed at the end of Lecture 9.</li>
               </ul>
           </li>
         <p></p>
           <li>
               <strong>Practice</strong>
               <ul>
-                  <li>Practice In-Class Quiz 2</li>
+                  <li>Problem 6-10 from <i>Shigley's Mechanical Engineering Design</i>, and then review the solutions posted.</li>
               </ul>
           </li>
         <p></p>
           <li>
               <strong>Complete</strong>
               <ul>
-                <li><i><a href="Lecture6Quiz.html">Lecture 6 Quiz</a></i>: due Tuesday, January 28 at 11:59 PM.</li>
+                <li><i><a href="Lecture10Quiz.html">Lecture 10 Quiz</a></i>: due Thursday, February 13 at 11:59 PM.</li>
               </ul>
           </li>
         <p></p>
@@ -124,9 +127,10 @@
       <hr>
       <p></p>
 
-      <h1>Lecture 6 Notes</h1>
+      <h1>Lecture 10 Notes</h1>
       <ul>
-        <li>Lecture 6 Notes[<a href="Lecture 6 Notes January 23, 2025.pdf" dowload="Lecture 6 Notes January 23, 2025.pdf">pdf</a>]</li>
+        <li>Lecture 10 Notes[<a href="Lecture 10 Notes February 11, 2025.pdf" dowload="Lecture 10 Notes February 11, 2025.pdf">pdf</a>]</li>
+        <li>Lecture 10 Slides[<a href="Lecture 10 - Modifying Factors for the Endurance Limit.pdf" dowload="Lecture 10 - Modifying Factors for the Endurance Limit.pdf">pdf</a>]</li>
       </ul>
       <p></p>
       <hr>
