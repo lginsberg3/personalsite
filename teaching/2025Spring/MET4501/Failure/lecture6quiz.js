@@ -50,7 +50,7 @@ const quizData = [
       answer: "MSS: n = 1.9, DE: n = 2.1"
     },
     {
-      question: "9. (of 10) A ductile hot-rolled steel bar has a minimum yield strength in tension and compression of 350 MPa. Using the distortion-energy (DE) and maximum-shear-stress (MSS) theories, determine the factors of safety for the following plane stress states: sigma_x = -50 MPa, sigma_y = -75 MPa, tau_xy = -50 MPa",
+      question: "10. (of 10) A ductile hot-rolled steel bar has a minimum yield strength in tension and compression of 350 MPa. Using the distortion-energy (DE) and maximum-shear-stress (MSS) theories, determine the factors of safety for the following plane stress states: sigma_x = -50 MPa, sigma_y = -75 MPa, tau_xy = -50 MPa",
       options: ["MSS: n = 1.1, DE: n = 1.5", "MSS: n = 1.5, DE: n = 5.5", "MSS: n = 3.2, DE: n = 3.1", "MSS: n = 3.1, DE: n = 3.2"],
       answer: "MSS: n = 3.1, DE: n = 3.2"
     },
