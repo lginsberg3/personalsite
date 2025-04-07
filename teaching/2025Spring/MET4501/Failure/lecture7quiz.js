@@ -1,58 +1,54 @@
 const quizData = [
     {
-      question: "1. (of 10) A material's modulus of elasticity (E) depends on which of the following?",
-      options: ["Heat treatment (e.g. annealed, quenched and tempered)", "Processing (e.g., cold-drawn, hot-rolled)", "Alloying", "All of the above", "None of the above"],
-      answer: "None of the above"
+      question: "1. (of 10) A brittle material has the properties Sut = 210 MPa and Suc = 630 MPa. Using the brittle Coulomb-Mohr (BCM) and modified-Mohr (MM) theories, determine the factor of safety for the following state of plane stress: sigma_x = 175 MPa, sigma_y = 105 MPa",
+      options: ["BCM: n = 0.5, MM: n = 2.0", "BCM: n = 1.2, MM: n = 1.2", "BCM: n = 2.0, MM: n = 0.5", "BCM: n = 1.7, MM: n = 1.7"],
+      answer: "BCM: n = 1.2, MM: n = 1.2"
     },
     {
-      question: "2. (of 10)The stress-strain curve for a tensile test is pictured in the figure. Load P is applied to a tensile test specimen. The test specimen's initial cross-sectional area is A0. Which label on the stress-strain curve corresponds with the yield strength (Sy)? Hint: This is the stress at which the material will retain a 0.2% permanent elongation after the load is removed.",
-      options: ["A", "B", "C", "D", "E"],
-      answer: "C",
-      image: "images/Lecture6Quiz_Img1.PNG",
+      question: "2. (of 10) A brittle material has the properties Sut = 210 MPa and Suc = 630 MPa. Using the brittle Coulomb-Mohr (BCM) and modified-Mohr (MM) theories, determine the factor of safety for the following state of plane stress: sigma_x = 105 MPa, sigma_y = -105 MPa",
+      options: ["BCM: n = 1.5, MM: n = 1.5", "BCM: n = 2.0, MM: n = 1.5", "BCM: n = 1.5, MM: n = 2.0", "BCM: n = 2.0, MM: n = 2.0"],
+      answer: "BCM: n = 1.5, MM: n = 2.0"
     },
     {
-      question: "3. (of 10) Which label on the stress-strain curve corresponds with the ultimate tensile strength (Sut)? Hint: This is the maximum stress the material can withstand.",
-      options: ["A", "B", "C", "D", "E"],
-      answer: "D",
-      image: "images/Lecture6Quiz_Img1.PNG",
+      question: "3. (of 10) A brittle material has the properties Sut = 210 MPa and Suc = 630 MPa. Using the brittle Coulomb-Mohr (BCM) and modified-Mohr (MM) theories, determine the factor of safety for the following state of plane stress: sigma_x = 140 MPa, tau_xy = -70 MPa",
+      options: ["BCM: n = 1.2, MM: n = 1.2", "BCM: n = 1.3, MM: n = 1.4", "BCM: n = 2.8, MM: n = 1.7", "BCM: n = 2.2, MM: n = 2.2"],
+      answer: "BCM: n = 1.2, MM: n = 1.2"
     },
     {
-      question: "4. (of 10) Which label on the stress-strain curve corresponds with the fracture limit (Sf)? Hint: This is the point at which the material will fracture.",
-      options: ["A", "B", "C", "D", "E"],
-      answer: "E",
-      image: "images/Lecture6Quiz_Img1.PNG",
+      question: "4. (of 10) A brittle material has the properties Sut = 210 MPa and Suc = 630 MPa. Using the brittle Coulomb-Mohr (BCM) and modified-Mohr (MM) theories, determine the factor of safety for the following state of plane stress: sigma_x = -105 MPa, sigma_y = 70 MPa, tau_xy = -105 MPa",
+      options: ["BCM: n = 0.8, MM: n = 1.1", "BCM: n = 1.6, MM: n = 1.6", "BCM: n = 2.5, MM: n = 2.2", "BCM: n = 1.2, MM: n = 1.6"],
+      answer: "BCM: n = 1.2, MM: n = 1.6"
     },
     {
-      question: "5. (of 10) Which label on the stress-strain curve corresponds with the elastic limit (el)? Hint: This is the point at which additional stress causes permanent deformation.",
-      options: ["A", "B", "C", "D", "E"],
-      answer: "B",
-      image: "images/Lecture6Quiz_Img1.PNG",
+      question: "5. (of 10) A brittle material has the properties Sut = 210 MPa and Suc = 630 MPa. Using the brittle Coulomb-Mohr (BCM) and modified-Mohr (MM) theories, determine the factor of safety for the following state of plane stress: sigma_x = -140 MPa, sigma_y = -140 MPa, tau_xy = -105 MPa",
+      options: ["BCM: n = 2.0, MM: n = 2.0", "BCM: n = 1.1, MM: n = 0.7", "BCM: n = 2.6, MM: n = 2.6", "BCM: n = 0.7, MM: n = 1.1"],
+      answer: "BCM: n = 2.6, MM: n = 2.6"
     },
     {
-      question: "6. (of 10) Which label on the stress-strain curve corresponds with the proportional limit (pl)? Hint: This is the point until which Hooke's Law can be applied.",
-      options: ["A", "B", "C", "D", "E"],
-      answer: "A",
-      image: "images/Lecture6Quiz_Img1.PNG",
+      question: "6. (of 10) For brittle materials, failure typically occurs when:",
+      options: ["The maximum shear stress reaches a critical value", "The material deforms plastically", "The tensile strength is exceeded", "The von Mises stress reaches a critical value"],
+      answer: "The tensile strength is exceeded"
     },
     {
-      question: "7. (of 10) A ductile hot-rolled steel bar has a minimum yield strength in tension and compression of 350 MPa. Using the distortion-energy (DE) and maximum-shear-stress (MSS) theories, determine the factors of safety for the following plane stress states: sigma_x = 100 MPa, sigma_y = 100 MPa",
-      options: ["MSS: n = 3.5, DE: n = 3.5", "MSS: n = 3.0, DE: n = 3.5", "MSS: n = 3.5, DE: n = 3.0", "MSS: n = 2.7, DE: n = 4.2"],
-      answer: "MSS: n = 3.5, DE: n = 3.5"
+      question: "7. (of 10) Select all failure theories that are applicable for brittle materials under static loading:",
+      options: ["Modified Mohr (MM)", "Brittle Coulomb-Mohr (BCM)", "Maximum Normal Stress (MNS)", "Distortion-energy (DE)", "Maximum Shear Stress (MSS)", "Ductile Coulomb-Mohr (DCM)"],
+      answer: ["Modified Mohr (MM)", "Brittle Coulomb-Mohr (BCM)", "Maximum Normal Stress (MNS)"],
+      multi: true
     },
     {
-      question: "8. (of 10) A ductile hot-rolled steel bar has a minimum yield strength in tension and compression of 350 MPa. Using the distortion-energy (DE) and maximum-shear-stress (MSS) theories, determine the factors of safety for the following plane stress states: sigma_x = 100 MPa, sigma_y = 50 MPa",
-      options: ["MSS: n = 2.5, DE: n = 2.0", "MSS: n = 3.5, DE: n = 3.5", "MSS: n = 3.5, DE: n = 4.0", "MSS: n = 2.7, DE: n = 4.5"],
-      answer: "MSS: n = 3.5, DE: n = 4.0"
+      question: "8. (of 10) What does Mode I fracture refer to?",
+      options: ["Shear sliding", "Out-of-plane tearing", "Tensile opening", "Compression"],
+      answer: "Tensile opening"
     },
     {
-      question: "9. (of 10) A ductile hot-rolled steel bar has a minimum yield strength in tension and compression of 350 MPa. Using the distortion-energy (DE) and maximum-shear-stress (MSS) theories, determine the factors of safety for the following plane stress states: sigma_x = 100 MPa, tau_xy = -75 MPa",
-      options: ["MSS: n = 1.0, DE: n = 3.0", "MSS: n = 1.9, DE: n = 2.1", "MSS: n = 2.1, DE: n = 1.9", "MSS: n = 2.5, DE: n = 3.7"],
-      answer: "MSS: n = 1.9, DE: n = 2.1"
+      question: "9. (of 10) Mode III fracture is best described as:",
+      options: ["Tensile crack opening", "In-plane shear", "Out-of-plane shear (tearing)", "Compression failure"],
+      answer: "Out-of-plane shear (tearing)"
     },
     {
-      question: "9. (of 10) A ductile hot-rolled steel bar has a minimum yield strength in tension and compression of 350 MPa. Using the distortion-energy (DE) and maximum-shear-stress (MSS) theories, determine the factors of safety for the following plane stress states: sigma_x = -50 MPa, sigma_y = -75 MPa, tau_xy = -50 MPa",
-      options: ["MSS: n = 1.1, DE: n = 1.5", "MSS: n = 1.5, DE: n = 5.5", "MSS: n = 3.2, DE: n = 3.1", "MSS: n = 3.1, DE: n = 3.2"],
-      answer: "MSS: n = 3.1, DE: n = 3.2"
+      question: "10. (of 10) A penny-shaped crack in a rod under uniform tension would most likely fail in which mode?",
+      options: ["Mode I", "Mode II", "Mode III","Mixed-mode",],
+      answer: "Mode I"
     },
   ];
   
