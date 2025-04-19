@@ -1,55 +1,123 @@
 const quizData = [
     {
-      question: "1. (of 10) Watch the video showing a former NCAA All-American Sprinter run on a treadmill at 25 mph while researchers at TCU gather reaction load data. For the horizontal force screenshotted below (the solid line), estimate the following: Fmin = ",
+      question: "1. (of 20) Watch the video showing a former NCAA All-American Sprinter run on a treadmill at 25 mph while researchers at TCU gather reaction load data. For the horizontal force screenshotted below (the solid line), estimate the following: Fmin = ",
       options: ["0 lb", "-100 lb", "-850 lb", "425 lb"],
-      answer: "stress-life",
+      answer: "-100 lb",
       image: "images/Lecture13Quiz_Img1.PNG"
     },
     {
-      question: "2. (of 10) Which of the below sketches looks most like a completely reversed stress cycle?",
-      options: ["A", "B", "C", "D"],
-      answer: "A",
-      image: "images/Lecture10Quiz_Img1.PNG"
+      question: "2. (of 20) Watch the video showing a former NCAA All-American Sprinter run on a treadmill at 25 mph while researchers at TCU gather reaction load data. For the horizontal force screenshotted below (the solid line), estimate the following: Fmax = ",
+      options: ["850 lb", "0 lb", "100 lb", "425 lb"],
+      answer: "100 lb",
+      image: "images/Lecture13Quiz_Img1.PNG"
     },
     {
-      question: "3. (of 10) It is not uncommon for fatigue tests to test specimens up to 10^9 stress cycles. Assuming continuous operation of the tester, estimate the time required to achieve 10^9 stress cycles using each of the following tester: A traditional servohydraulic testing machine (which can run up to around 50 Hz)",
-      options: ["7 months", "12 days", "5 hours", "200 years"],
-      answer: "7 months"
+      question: "3. (of 20) Watch the video showing a former NCAA All-American Sprinter run on a treadmill at 25 mph while researchers at TCU gather reaction load data. For the horizontal force screenshotted below (the solid line), estimate the following: Fa = ",
+      options: ["850 lb", "0 lb", "100 lb", "425 lb"],
+      answer: "100 lb",
+      image: "images/Lecture13Quiz_Img1.PNG"
     },
     {
-      question: "4. (of 10) It is not uncommon for fatigue tests to test specimens up to 10^9 stress cycles. Assuming continuous operation of the tester, estimate the time required to achieve 10^9 stress cycles using each of the following tester: A rotating beam fatigue testing system (which can achieve speeds up to 10,000 rpm)",
-      options: ["2 months", "1 day", "9 hours", "3 years"],
-      answer: "2 months"
+      question: "4. (of 20) Watch the video showing a former NCAA All-American Sprinter run on a treadmill at 25 mph while researchers at TCU gather reaction load data. For the horizontal force screenshotted below (the solid line), estimate the following: Fm = ",
+      options: ["850 lb", "0 lb", "100 lb", "425 lb"],
+      answer: "0 lb",
+      image: "images/Lecture13Quiz_Img1.PNG"
     },
     {
-      question: "5. (of 10) A part is subjected to cyclic loading at a frequency of 100 Hz. The part is required to be designed for infinite life. Which material should be used?",
-      options: ["AISI 1035 steel", "Al 6061-T6 (aluminum alloy)", "Either AISI 1035 steel or Al 6061-T6 can be used.", "Neither AISI 1035 steel nor Al 6061-T6 should be used."],
-      answer: "AISI 1035 steel"
+      question: "5. (of 20) Watch the video showing a former NCAA All-American Sprinter run on a treadmill at 25 mph while researchers at TCU gather reaction load data. For the vertical force screenshotted below (the dotted line), estimate the following: Fmin = ",
+      options: ["150 lb", "0 lb", "-150 lb", "425 lb"],
+      answer: "0 lb",
+      image: "images/Lecture13Quiz_Img1.PNG"
     },
     {
-      question: "6. (of 10) A material has an ultimate tensile strength of 1500 MPa. Identify the most likely value for the fully corrected endurance limit, Se",
-      options: ["750 MPa", "400 MPa", "40 MPa", "None of these"],
-      answer: "400 MPa"
+      question: "6. (of 20) Watch the video showing a former NCAA All-American Sprinter run on a treadmill at 25 mph while researchers at TCU gather reaction load data. For the vertical force screenshotted below (the dotted line), estimate the following: Fmax = ",
+      options: ["850 lb", "0 lb", "100 lb", "425 lb"],
+      answer: "850 lb",
+      image: "images/Lecture13Quiz_Img1.PNG"
     },
     {
-      question: "7. (of 10) Estimate S'e in MPa for an AISI 1035 CD (Cold-Drawn) steel. Use Table A-20 in Shigley's Mechanical Engineering Design to find any material properties.",
-      options: ["275 MPa", "700 MPa", "100 MPa", "137.5 MPa"],
-      answer: "275 MPa"
+      question: "7. (of 20) Watch the video showing a former NCAA All-American Sprinter run on a treadmill at 25 mph while researchers at TCU gather reaction load data. For the vertical force screenshotted below (the dotted line), estimate the following: Fa = ",
+      options: ["850 lb", "0 lb", "100 lb", "425 lb"],
+      answer: "425 lb",
+      image: "images/Lecture13Quiz_Img1.PNG"
     },
     {
-      question: "8. (of 10) Estimate S'e in MPa for an AISI 1050 HR (Hot-Rolled) steel. Use Table A-20 in Shigley's Mechanical Engineering Design to find any material properties.",
-      options: ["810.16 MPa", "700 MPa", "400 MPa", "45 MPa"],
-      answer: "700 MPa"
+      question: "8. (of 20) Watch the video showing a former NCAA All-American Sprinter run on a treadmill at 25 mph while researchers at TCU gather reaction load data. For the vertical force screenshotted below (the dotted line), estimate the following: Fm = ",
+      options: ["850 lb", "0 lb", "100 lb", "425 lb"],
+      answer: "425 lb",
+      image: "images/Lecture13Quiz_Img1.PNG"
     },
     {
-      question: "9. (of 10) Estimate S'e in MPa for an AISI 4130 steel heat-treated to a tensile strength of 1620.325 MPa. Use Table A-20 in Shigley's Mechanical Engineering Design to find any material properties.",
-      options: ["310 MPa", "700 MPa", "155 MPa", "200 MPa"],
-      answer: "310 MPa"
+      question: "9. (of 20) Watch the video showing sprint champion Jarryd Wallace run on a treadmill at 24.6 mph while researchers at TCU gather reaction load data. For the vertical force screenshotted below (in blue), estimate the following: Fmin = ",
+      options: ["-150 lb", "0 lb", "-50 lb", "100 lb"],
+      answer: "0 lb",
+      image: "images/Lecture13Quiz_Img2.PNG"
     },
     {
-      question: "10. (of 10) Estimate the endurance strength (Se) of a 38.100 mm-diameter rod of AISI 1040 steel having a machined finish and heat-treated to a tensile strength of 758.450 MPa, loaded in rotating bending.",
-      options: ["152.90 MPa", "229.36 MPa", "194.95 MPa", "135.32 MPa"],
-      answer: "229.36 MPa"
+      question: "10. (of 20) Watch the video showing sprint champion Jarryd Wallace run on a treadmill at 24.6 mph while researchers at TCU gather reaction load data. For the vertical force screenshotted below (in blue), estimate the following: Fmax = ",
+      options: ["600 lb", "0 lb", "425 lb", "100 lb"],
+      answer: "600 lb",
+      image: "images/Lecture13Quiz_Img2.PNG"
+    },
+    {
+      question: "11. (of 20) Watch the video showing sprint champion Jarryd Wallace run on a treadmill at 24.6 mph while researchers at TCU gather reaction load data. For the vertical force screenshotted below (in blue), estimate the following: Fa = ",
+      options: ["300 lb", "0 lb", "-300 lb", "100 lb"],
+      answer: "300 lb",
+      image: "images/Lecture13Quiz_Img2.PNG"
+    },
+    {
+      question: "12. (of 20) Watch the video showing sprint champion Jarryd Wallace run on a treadmill at 24.6 mph while researchers at TCU gather reaction load data. For the vertical force screenshotted below (in blue), estimate the following: Fm = ",
+      options: ["300 lb", "0 lb", "850 lb", "100 lb"],
+      answer: "300 lb",
+      image: "images/Lecture13Quiz_Img2.PNG"
+    },
+    {
+      question: "13. (of 20) Watch the video showing sprint champion Jarryd Wallace run on a treadmill at 24.6 mph while researchers at TCU gather reaction load data. For the anterior-posterior (front-back) force screenshotted below (in red), estimate the following: Fmin = ",
+      options: ["100 lb", "0 lb", "-50 lb", "-100 lb"],
+      answer: "-100 lb",
+      image: "images/Lecture13Quiz_Img2.PNG"
+    },
+    {
+      question: "14. (of 20) Watch the video showing sprint champion Jarryd Wallace run on a treadmill at 24.6 mph while researchers at TCU gather reaction load data. For the anterior-posterior (front-back) force screenshotted below (in red), estimate the following: Fmax = ",
+      options: ["600 lb", "0 lb", "425 lb", "100 lb"],
+      answer: "100 lb",
+      image: "images/Lecture13Quiz_Img2.PNG"
+    },
+    {
+      question: "15. (of 20) Watch the video showing sprint champion Jarryd Wallace run on a treadmill at 24.6 mph while researchers at TCU gather reaction load data. For the anterior-posterior (front-back) force screenshotted below (in red), estimate the following: Fa = ",
+      options: ["125 lb", "0 lb", "-500 lb", "250 lb"],
+      answer: "125 lb",
+      image: "images/Lecture13Quiz_Img2.PNG"
+    },
+    {
+      question: "16. (of 20) Watch the video showing sprint champion Jarryd Wallace run on a treadmill at 24.6 mph while researchers at TCU gather reaction load data. For the anterior-posterior (front-back) force screenshotted below (in red), estimate the following: Fm = ",
+      options: ["-25 lb", "-100 lb", "850 lb", "100 lb"],
+      answer: "-25 lb",
+      image: "images/Lecture13Quiz_Img2.PNG"
+    },
+    {
+      question: "17. (of 20) Watch the video showing sprint champion Jarryd Wallace run on a treadmill at 24.6 mph while researchers at TCU gather reaction load data. For the medial-lateral (left-right) force screenshotted below (in green), estimate the following: Fmin = ",
+      options: ["100 lb", "0 lb", "-50 lb", "-100 lb"],
+      answer: "-100 lb",
+      image: "images/Lecture13Quiz_Img2.PNG"
+    },
+    {
+      question: "18. (of 20) Watch the video showing sprint champion Jarryd Wallace run on a treadmill at 24.6 mph while researchers at TCU gather reaction load data. For the medial-lateral (left-right) force screenshotted below (in green), estimate the following: Fmax = ",
+      options: ["600 lb", "0 lb", "425 lb", "50 lb"],
+      answer: "50 lb",
+      image: "images/Lecture13Quiz_Img2.PNG"
+    },
+    {
+      question: "19. (of 20) Watch the video showing sprint champion Jarryd Wallace run on a treadmill at 24.6 mph while researchers at TCU gather reaction load data. For the medial-lateral (left-right) force screenshotted below (in green), estimate the following: Fa = ",
+      options: ["75 lb", "0 lb", "-500 lb", "250 lb"],
+      answer: "75 lb",
+      image: "images/Lecture13Quiz_Img2.PNG"
+    },
+    {
+      question: "20. (of 20) Watch the video showing sprint champion Jarryd Wallace run on a treadmill at 24.6 mph while researchers at TCU gather reaction load data. For the medial-lateral (left-right) force screenshotted below (in green), estimate the following: Fm = ",
+      options: ["-25 lb", "-100 lb", "850 lb", "100 lb"],
+      answer: "-25 lb",
+      image: "images/Lecture13Quiz_Img2.PNG"
     },
   ];
   
