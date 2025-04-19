@@ -1,6 +1,6 @@
 const quizData = [
     {
-      question: "1. (of 10) Watch the video showing a former NCAA All-American Sprinter run on a treadmill at 25 mph while researchers at TCU gather reaction load data. For the horizontal force screenshotted below (the solid line), estimate the following: Fmin = <br><iframe width="560" height="315" src="https://www.youtube.com/embed/EXAMPLE" frameborder="0" allowfullscreen></iframe>",
+      question: "1. (of 10) Watch the video showing a former NCAA All-American Sprinter run on a treadmill at 25 mph while researchers at TCU gather reaction load data. For the horizontal force screenshotted below (the solid line), estimate the following: Fmin = ",
       options: ["0 lb", "-100 lb", "-850 lb", "425 lb"],
       answer: "stress-life",
       image: "images/Lecture13Quiz_Img1.PNG"
