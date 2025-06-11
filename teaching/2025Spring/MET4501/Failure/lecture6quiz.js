@@ -13,13 +13,13 @@ const quizData = [
     {
       question: "3. (of 10) Which label on the stress-strain curve corresponds with the ultimate tensile strength (Sut)? Hint: This is the maximum stress the material can withstand.",
       options: ["A", "B", "C", "D", "E"],
-      answer: "D",
+      answer: "E",
       image: "images/Lecture6Quiz_Img1.PNG",
     },
     {
       question: "4. (of 10) Which label on the stress-strain curve corresponds with the fracture limit (Sf)? Hint: This is the point at which the material will fracture.",
       options: ["A", "B", "C", "D", "E"],
-      answer: "E",
+      answer: "D",
       image: "images/Lecture6Quiz_Img1.PNG",
     },
     {
